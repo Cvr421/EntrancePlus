@@ -30,7 +30,7 @@ const User=require("../datamodel/user")
 // }
 
 const create = async function(req, res) {
-    console.log(req.body);
+    // console.log(req.body);
     if (req.body.password != req.body.confirm_password) {
       return res.send({ message: "Confirm password did not match" });
     }
@@ -50,6 +50,7 @@ const create = async function(req, res) {
       return res.send({ message: "Error occurred while signing up" });
     }
   }
+  
   
 
 

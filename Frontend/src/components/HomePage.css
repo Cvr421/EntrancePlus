@@ -1,0 +1,54 @@
+.category-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .category-section {
+    width:150px;
+    height: 130px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .category-section:hover{
+   background-color:#2370dc ;
+  }
+  
+  .category-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .category-section p {
+    font-size: 16px;
+    
+  }
+  .welcome h4{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .welcome{
+    justify-content: center;
+  }
+  .image{
+    height: 85vh;
+    width: 100%;
+  }
+  .input{
+padding: 9px;
+height: 10px;
+border-width: 1px;
+border-radius: 5px;
+margin: 5px;
+  }
+  .cat{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+    height: 50px;
+    padding: 5px;
+  }

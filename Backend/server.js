@@ -6,7 +6,13 @@ const app = express();
 const router=require('./router/index')
 const cors =require('cors');
 // Body parser middleware
+
+
+
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+
 app.use(cors({ origin: "http://localhost:3000", optionsSuccessStatus: 200 }));
 // MongoDB connection string
 // const mongoURI = 'mongodb://localhost/EntrancePlus';

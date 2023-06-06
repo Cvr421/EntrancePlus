@@ -2,7 +2,7 @@
 import React from 'react'
 import "./SignUp.css"
 import axios from "axios";
-
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 export default function SignUp() {
   const [user, setUser] = useState({
@@ -54,7 +54,7 @@ export default function SignUp() {
                 <span>Let's Make it Available to EveryOne!!!</span>
         </div>  
         <div className="signup-form">
-        <p>Already have an account? <a href="#">Log In</a></p>
+        <p>Already have an account? <Link to="/login">Login</Link></p>
           <h2>Sign Up</h2>
           <form>
             <div className="input-field">

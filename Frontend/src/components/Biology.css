@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  .left-section {
+    flex: 0.6;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .right-section {
+    flex: 2;
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: rgb(128, 11, 11);
+    border-width: 5px;
+  }
+  
+  .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border-color: black;
+  }
+  
+  /* Styling for each content item */
+  .content-item {
+    flex-basis: calc(70% - 10px); /* Adjust the width based on your desired layout */
+   height: 30px;
+ margin: 5px;
+   padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    cursor: pointer;
+  }
+
+  /* In the above code, we have a container that uses flexbox to create two sections: left-section and right-section. The left section has a flex value of 1, making it smaller, while the right section has a flex value of 2, making it bigger. Each section contains a content-section where the content from the database will be displayed in a horizontal layout.
+  
+  To display the content horizontally, we use display: flex and flex-wrap: wrap on the content-section. Each content item is styled with the .content-item class, and you can adjust its width and other properties based on your desired layout.
+  
+  Remember to replace the placeholder content with the actual content retrieved from the database.
+  
+  Feel free to modify the CSS styles according to your specific design requirements. */
+  
+  
+  
+  
+  
+  
+  
